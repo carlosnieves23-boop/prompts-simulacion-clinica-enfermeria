@@ -1,8 +1,8 @@
 # 🏥 Prompts para Simulación Clínica en Enfermería
 
-**Estudiante:** [Tu Nombre]  
+**Estudiante:** [CARLOS NIEVES]  
 **Curso:** Inteligencia Artificial  
-**Universidad:** [Tu Universidad]  
+**Universidad:** [UIB]  
 **Fecha:** Noviembre 2025
 
 ---
