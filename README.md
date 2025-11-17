@@ -1,147 +1,43 @@
 # prompts-simulacion-clinica-enfermería.🏥 Prompts para Simulación Clínica en Enfermería
-📋 Descripción del Proyecto
-Este repositorio contiene 3 prompts especializados diseñados para el contexto de simulación clínica en enfermería, desarrollados como parte del curso de Inteligencia Artificial en la facultad.
-Los prompts han sido creados aplicando técnicas avanzadas de prompt engineering y optimizados mediante la herramienta Prompt Cowboy.
+Hoja de Registro - Proceso de Refinamiento
+Proyecto: Prompts para Simulación Clínica en Enfermería
+Curso: Inteligencia Artificial
+Fecha: Noviembre 2025
 
-🎯 Objetivos del Proyecto
-
-Aplicar metodologías de diseño de prompts (RACE, TRACE, Metaprompting)
-Implementar técnicas de maximización de extensión en respuestas
-Utilizar parámetros de temperatura, Top K y Top P
-Realizar refinamiento sucesivo de prompts
-Documentar el proceso completo de creación y optimización
-
-
-📁 Estructura del Repositorio
-📦 prompts-simulacion-clinica/
-├── 📄 README.md (este archivo)
-├── 📂 versiones-originales/
-│   ├── prompt-1-analisis-integral-original.md
-│   ├── prompt-2-diseno-escenarios-original.md
-│   └── prompt-3-metaprompt-evaluacion-original.md
-├── 📂 versiones-optimizadas/
-│   ├── prompt-1-analisis-integral-optimizado.md
-│   ├── prompt-2-diseno-escenarios-optimizado.md
-│   └── prompt-3-metaprompt-evaluacion-optimizado.md
-└── 📂 documentacion/
-    └── hoja-de-registro.md
-
-🚀 Los 3 Prompts
-Prompt 1: Análisis Integral de Simulación Clínica
-
-Metodología aplicada: RACE (Role, Action, Context, Expectation)
-Objetivo: Realizar análisis exhaustivos de programas de simulación clínica
-Parámetros: Temperatura 0.4 | Top P 0.9 | Top K 50
-Enfoque: Evaluación sistemática de escenarios simulados
-
-Prompt 2: Diseño de Escenarios de Simulación Clínica
-
-Metodología aplicada: TRACE (Task, Request, Action, Context, Example)
-Objetivo: Crear escenarios clínicos completos y realistas
-Parámetros: Temperatura 0.5 | Top P 0.85 | Top K 40
-Enfoque: Desarrollo operacional de casos simulados
-
-Prompt 3: Generador de Prompts para Evaluación
-
-Metodología aplicada: Metaprompting
-Objetivo: Generar prompts especializados para evaluación de competencias
-Parámetros: Temperatura 0.3 | Top P 0.9 | Top K 50
-Enfoque: Creación de herramientas de evaluación basadas en taxonomía de Bloom
-
-
-🔄 Proceso de Refinamiento
+PROMPT 1: Análisis Integral de Simulación Clínica
 Versión 1.0 - Original (Manual)
-Prompts diseñados manualmente aplicando:
-
-Estructuras RACE y TRACE
-Técnicas de maximización de extensión
-Palabras clave específicas ("explica en detalle", "desarrolla exhaustivamente")
-Solicitud de mínimos de párrafos por sección
-
+CampoDetalleFecha de creación[Insertar fecha]Metodología aplicadaRACE (Role, Action, Context, Expectation)Estructura7 secciones numeradas con mínimos de párrafosTécnicas de extensión- "Mínimo X párrafos"<br>- "Explica en detalle"<br>- "Desarrolla exhaustivamente"<br>- Solicitud de múltiples ejemplosParámetrosTemp: 0.4 | Top P: 0.9 | Top K: 50ObjetivoGenerar análisis extenso de programas de simulaciónFortalezas- Estructura muy detallada<br>- Garantiza respuestas extensas<br>- Clara metodología RACEÁreas de mejora- Puede ser repetitivo<br>- Muy prescriptivo
 Versión 2.0 - Optimizada (Prompt Cowboy)
-Prompts procesados mediante Prompt Cowboy que generó:
+CampoDetalleFecha de optimización[Insertar fecha]Herramienta utilizadaPrompt Cowboy (www.promptcowboy.ai)Estructura nuevaSituación-Tarea-Objetivo-ConocimientoCambios principales- Enfoque de generación a análisis<br>- Estructura unificada<br>- Lenguaje más profesional<br>- Eliminación de mínimos de párrafosParámetrosTemp: 0.4 | Top P: 0.9 | Top K: 50 (sin cambios)Mejoras observadas+ Más aplicable en contextos reales<br>+ Mejor organización conceptual<br>+ Menos redundanciaConsideraciones- Menor garantía de extensión<br>- Más flexible pero menos prescriptivoDecisión final✅ Usar versión optimizada para contextos profesionales<br>✅ Mantener original para contextos académicos que requieren extensión
 
-Estructura unificada: Situación-Tarea-Objetivo-Conocimiento
-Lenguaje más profesional y conciso
-Enfoque más operacional y aplicable
-Mejor organización de elementos clave
+PROMPT 2: Diseño de Escenarios de Simulación Clínica
+Versión 1.0 - Original (Manual)
+CampoDetalleFecha de creación[Insertar fecha]Metodología aplicadaTRACE (Task, Request, Action, Context, Example)Estructura9 secciones con requisitos mínimos + ejemplo concretoTécnicas de extensión- Mínimos por sección<br>- Fase por fase detallada<br>- Ejemplo de formato esperado<br>- Instrucciones finales exhaustivasParámetrosTemp: 0.5 | Top P: 0.85 | Top K: 40ObjetivoCrear escenario completo con todos los componentesFortalezas- Muy completo y operacional<br>- Incluye ejemplo de formato<br>- Cubre todos los aspectos pedagógicosÁreas de mejora- Puede ser abrumador<br>- Muy largo
+Versión 2.0 - Optimizada (Prompt Cowboy)
+CampoDetalleFecha de optimización[Insertar fecha]Herramienta utilizadaPrompt Cowboy (www.promptcowboy.ai)Estructura nuevaSituación-Tarea-Objetivo-ConocimientoCambios principales- TRACE convertido a lista de elementos<br>- Principios de diseño instruccional destacados<br>- Conceptos clave añadidos (fidelidad contextual, engagement)<br>- Eliminación de secciones numeradasParámetrosTemp: 0.5 | Top P: 0.85 | Top K: 40 (sin cambios)Mejoras observadas+ Más conciso y directo<br>+ Enfoque en principios vs pasos<br>+ Mejor balance fidelidad/objetivosConsideraciones- Menos guía paso a paso<br>- Requiere más expertise del usuarioDecisión final✅ Original mejor para usuarios novatos<br>✅ Optimizado mejor para usuarios experimentados
 
-Principales Mejoras Identificadas
-✅ Mayor claridad y organización
-✅ Lenguaje más profesional
-✅ Estructura consistente entre los 3 prompts
-✅ Más flexibilidad en la aplicación
-✅ Reducción de redundancias
+PROMPT 3: Generador de Prompts para Evaluación de Competencias
+Versión 1.0 - Original (Manual)
+CampoDetalleFecha de creación[Insertar fecha]Metodología aplicadaMetapromptingEstructuraSolicitud de 5 prompts específicos con formato detalladoTécnicas de extensión- Mínimo 15 líneas por prompt<br>- 5 competencias específicas predefinidas<br>- Guía de implementación<br>- Ejemplos de refinamientoParámetrosTemp: 0.3 | Top P: 0.9 | Top K: 50ObjetivoGenerar 5 prompts listos para usar en evaluaciónFortalezas- Muy específico y accionable<br>- Cubre competencias clave de enfermería<br>- Incluye guía de usoÁreas de mejora- Podría ser más flexible<br>- Muy largo y complejo
+Versión 2.0 - Optimizada (Prompt Cowboy)
+CampoDetalleFecha de optimización[Insertar fecha]Herramienta utilizadaPrompt Cowboy (www.promptcowboy.ai)Estructura nuevaSituación-Tarea-Objetivo-Conocimiento + InteracciónCambios principales- Enfoque interactivo (hace preguntas)<br>- No prescribe número ni competencias específicas<br>- Taxonomía de Bloom explícita<br>- Consideración de sesgos y validezParámetrosTemp: 0.3 | Top P: 0.9 | Top K: 50 (sin cambios)Mejoras observadas+ Más flexible y adaptable<br>+ Enfoque en calidad de evaluación<br>+ Considera aspectos psicométricos<br>+ Interactividad mejoradaConsideraciones- Menos específico para enfermería<br>- Requiere más input del usuario<br>- No genera múltiples prompts automáticamenteDecisión final✅ Original para generar banco de prompts<br>✅ Optimizado para generación personalizada bajo demanda
 
-📊 Comparativa de Versiones
-AspectoVersión OriginalVersión OptimizadaEstructuraRACE/TRACE individualSituación-Tarea-Objetivo-ConocimientoExtensiónMuy detallada (7 secciones)Concisa y completa (4 elementos)EnfoqueGeneración de contenido extensoAnálisis y diseño estratégicoAplicabilidadContexto académicoProfesional y académicoClaridadMuy prescriptivaFlexible y clara
+📈 CONCLUSIONES GENERALES
+Patrones identificados en la optimización:
 
-🛠️ Técnicas Aplicadas
-Maximización de Extensión
+Estructura unificada: Prompt Cowboy estandarizó todo a "Situación-Tarea-Objetivo-Conocimiento"
+Mayor profesionalización: Lenguaje más corporativo y menos académico
+Flexibilidad vs Prescripción: Las versiones optimizadas son más adaptables pero menos específicas
+Concisión: Eliminación de redundancias y mínimos prescriptivos
+Conceptos avanzados: Añadió terminología especializada (fidelidad contextual, engagement, sesgos)
 
-Especificación clara de respuestas detalladas
-Uso de palabras clave: "exhaustivo", "paso a paso", "en profundidad"
-Solicitud de ejemplos múltiples
-Estructura con secciones numeradas
-Indicación de mínimos de contenido
+Aprendizajes clave:
+✅ Para contextos académicos: Las versiones originales garantizan extensión y cobertura completa
+✅ Para contextos profesionales: Las versiones optimizadas son más prácticas y aplicables
+✅ Hibridación: Combinar estructura optimizada con técnicas de extensión podría ser ideal
+Recomendaciones para futuro:
 
-Parámetros Utilizados
-
-Temperatura: 0.3 - 0.5 (equilibrio coherencia/creatividad)
-Top P: 0.85 - 0.9 (diversidad léxica apropiada)
-Top K: 40 - 50 (calidad de vocabulario)
-
-
-📖 Cómo Usar Este Repositorio
-
-Consulta las versiones originales para entender el diseño inicial con RACE/TRACE
-Revisa las versiones optimizadas para ver las mejoras sugeridas por IA
-Usa la hoja de registro como plantilla para tus propios proyectos
-Adapta los prompts según tus necesidades específicas
-
-
-🎓 Contexto Académico
-Asignatura: Inteligencia Artificial
-Institución: [Tu Universidad]
-Tema: Prompt Engineering Avanzado
-Aplicación: Simulación Clínica en Enfermería
-Requisitos cumplidos:
-
-✅ Técnicas de prompting avanzadas
-✅ Uso de parámetros (Temperatura, Top K, Top P)
-✅ Aplicación de RACE y TRACE
-✅ Metaprompting
-✅ Refinamiento sucesivo
-✅ Almacenamiento en repositorio
-✅ Hoja de registro documentada
-
-
-📝 Hoja de Registro
-Ver documento completo en: documentacion/hoja-de-registro.md
-
-🔗 Herramientas Utilizadas
-
-Diseño inicial: Manual con metodologías RACE/TRACE
-Optimización: Prompt Cowboy
-Documentación: GitHub Markdown
-Consultoría IA: Claude (Anthropic)
-
-
-📄 Licencia
-Este proyecto es de código abierto y está disponible bajo licencia MIT para fines educativos.
-
-👤 Autor
-[Tu Nombre]
-Estudiante de Enfermería
-[Tu Universidad]
-Curso: Inteligencia Artificial - 2025
-
-📧 Contacto
-Para consultas sobre este proyecto:
-
-Email: [tu-email]
-GitHub: [@tu-usuario]
-
-
-Fecha de creación: Noviembre 2025
-Última actualización: [Fecha actual]
+Probar ambas versiones con IAs diferentes (GPT-4, Claude, Gemini)
+Documentar diferencias en outputs generados
+Crear versión 3.0 híbrida que combine fortalezas de ambas
+Ajustar parámetros según modelo de IA utilizado
